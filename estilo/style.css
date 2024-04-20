@@ -49,7 +49,7 @@ body{
     z-index: 3;
     flex-direction: row;
     justify-content: flex-start;
-    max-height: 450px;
+    max-height: 470px;
 }
   
 .header ul {
@@ -70,9 +70,13 @@ body{
     font-family: var(--font-destaque);
     font-weight: 600;
     font-style: normal;
-    line-height: 91px;
+    line-height: 81px;
     margin: 0px 20px 0px 10px;
     
+}
+i{
+    font-size: 25px;
+    margin: 0px 2px 0px 0px;
 }
 
 li a:hover{
@@ -100,11 +104,12 @@ li a:hover{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
   
 .header .menu-icon .navicon {
     background: var(--cor3);
     display: block;
-    height: 2px;
+    height: 1px;
     position: relative;
     transition: .2s ease-out;
     width: 18px;
@@ -190,7 +195,7 @@ h5{
     max-width: 300px;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 2em;
     font-family: var(--font-destaque);
     font-weight: 700;
@@ -203,7 +208,7 @@ h5{
     border-radius: 10px;
     font-family: var(--font-destaque);
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 0px 25px;
 }
 .carousel-control-prev-icon{
     border-radius: 30px;
@@ -251,6 +256,7 @@ main{
     width: 300px;
     animation: pop 10s ease-in-out 0.5s infinite alternate forwards;
 }
+
 #pop-container{
     --bs-gutter-x: -0.2rem;
 }
@@ -262,7 +268,12 @@ button a:hover{
     font-size: 20px;
     color: #232A31;
 }
-
+.carousel a{
+    color: white;
+}
+.carousel a:hover{
+    color: #232A31;
+}
 
 #pop-container img{
     min-height: 600px;
@@ -288,7 +299,8 @@ div.card.h-100{
 }
 .card-body p{
     color: white;
-    font-size: 1.3vw;
+    max-height: 90px;
+    font-size: 15px;
 }
 .card-body h5{
     color: white;
@@ -364,7 +376,7 @@ footer p a:hover{
     margin-right: auto;
     margin-left: auto;
     max-width: 300px;
-    max-height: 200px;
+    max-height: 0px;
     margin-top: 10px;
     border-radius: 0px 30px;
 }
