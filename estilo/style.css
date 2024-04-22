@@ -72,7 +72,7 @@ body{
     font-style: normal;
     line-height: 81px;
     margin: 0px 20px 0px 10px;
-    
+    box-sizing: border-box;
 }
 i{
     font-size: 25px;

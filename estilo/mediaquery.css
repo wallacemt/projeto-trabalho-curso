@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+
+@media(width < 894px ){
+  .header li a{
+    font-size: 11px;
+  }
+
+}
 @media (min-width: 808px) {
         .header{
             display: flex;
@@ -41,5 +48,17 @@
   #pop-container{
     --bs-gutter-x: -4.5rem;
   }
+}
+@media (width < 425px){
+  main{
+    max-width: 300px;
+  }
+  .header{
+    max-height: 500px;
+  }
+  .header li a{
+    font-size: 8px;
+  }
+
 }
 
